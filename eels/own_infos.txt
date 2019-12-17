@@ -1,0 +1,11 @@
+if you followed the instructions, run the parser by:
+
+source .pyenv/bin/activate
+cd nomad/dependencies/parsers/eels
+python -m eelsparser tests/metadata1t.json
+
+
+
+edit: ive changed the local_backend.py in /home/fabipi/nomad/dependencies/python_common/common/python/nomadcore/local_backend.py
+
+also could use isinstance but need NoneType = type(None)
